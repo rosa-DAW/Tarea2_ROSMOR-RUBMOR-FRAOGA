@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto | Sabores del Mundo</title>
-  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
   <header class="header">
@@ -23,12 +23,19 @@
     <div class="contenedor">
       <h2>Formulario de contacto</h2>
 
+      <h3>Estamos aquí para ayudarte</h3>
+
+      <p>Si tienes cualquier duda o sugerencia sobre nuestras recetas, no dudes en escribirnos a través del siguiente formulario.</p>
+
       <form id="formulario-contacto" class="formulario">
         <label for="nombre">Nombre</label>
         <input type="text" id="nombre" name="nombre" required>
 
         <label for="email">Correo electrónico</label>
         <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono">
 
         <label for="mensaje">Mensaje</label>
         <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
