@@ -89,6 +89,10 @@ h1, h2, h3, .nav a {
   background-color: #e5e7eb;
 }
 
+main {
+  min-height: 69vh;
+}
+
 .tarjetas {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -101,6 +105,11 @@ h1, h2, h3, .nav a {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  text-align: center;
+}
+
+.tarjeta > .boton {
+  margin-top: 25px;
 }
 
 .tarjeta h3 {
